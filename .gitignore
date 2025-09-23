@@ -1,9 +1,5 @@
-.ipynb_checkpoints/
-__pycache__/
-*.pyc
-.venv/
-poetry.toml
-.DS_Store
-data/
 *.csv
-*.parquet
+git status
+
+
+
