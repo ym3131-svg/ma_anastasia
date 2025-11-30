@@ -68,8 +68,8 @@ Coursework projects analyzing personality, sleep, consumer behavior, and nonresp
 
 ## 🌐 Connect With Me
 - **LinkedIn:** https://www.linkedin.com/in/anastasia-ma-  
-- **GitHub:** https://github.com/yma  
-- **Email:** your-email@columbia.edu  
+- **GitHub:** https://github.com/ym3131-svg
+- **Email:** ym3131@columbia.edu  
 
 Always open to discussing **data science**, **consulting**, **AI ethics**, **public policy**, and collaborations.
 
@@ -85,3 +85,4 @@ Always open to discussing **data science**, **consulting**, **AI ethics**, **pub
 
 ### ⭐ Thanks for stopping by!  
 If anything here resonates, feel free to reach out — I love connecting with curious, driven people.
+
