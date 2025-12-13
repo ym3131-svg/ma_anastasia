@@ -1,4 +1,8 @@
-Exercises/HW02/data/
+.env
+.coverage
+dist/
+__pycache__/
+*.pyc
 
 
 
