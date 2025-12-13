@@ -1,0 +1,6 @@
+#!/Users/mayizhuoran/PycharmProjects/ma_anastasia/restaurant_client/.venv/bin/python
+import sys
+from restaurant_client.cli import main
+
+if __name__ == '__main__':
+    sys.exit(main())

@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "restaurant-client"
+version = "0.1.2"
+description = "A Python client for the Foursquare Places API (restaurant search)."
+authors = ["Anastasia Ma"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "restaurant_client", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pandas = "^2.2.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-cov = "^5.0.0"
+sphinx = "^8.0.0"
+sphinx-rtd-theme = "^3.0.0"
+myst-parser = "^4.0.0"
+sphinx-autodoc-typehints = "^3.0.0"
+myst-nb = "^1.0.0"
+build = "^1.2.0"
+twine = "^5.0.0"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+restaurant-client = "restaurant_client.cli:main"
